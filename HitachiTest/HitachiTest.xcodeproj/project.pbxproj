@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CFA29A2693787D5C87B2F21 /* Pods_HitachiTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AA7F76607E606F35FD3DD /* Pods_HitachiTest.framework */; };
+		9ABA7C33DEA4856A882E1965 /* Pods_HitachiTest_HitachiTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98439A3D5BD4EC6F6C14101E /* Pods_HitachiTest_HitachiTestUITests.framework */; };
 		CF752B4D29274D76000E0C52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B4C29274D76000E0C52 /* AppDelegate.swift */; };
 		CF752B4F29274D76000E0C52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B4E29274D76000E0C52 /* SceneDelegate.swift */; };
 		CF752B5129274D76000E0C52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B5029274D76000E0C52 /* ViewController.swift */; };
@@ -17,6 +19,7 @@
 		CF752B6E29274D78000E0C52 /* HitachiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B6D29274D78000E0C52 /* HitachiTestUITests.swift */; };
 		CF752B7029274D78000E0C52 /* HitachiTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B6F29274D78000E0C52 /* HitachiTestUITestsLaunchTests.swift */; };
 		CF752B7E29274E1C000E0C52 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF752B8029274E1C000E0C52 /* Localizable.strings */; };
+		D4ADE0123521816C5FAB6D9E /* Pods_HitachiTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92439EBF40641B5E92A619E /* Pods_HitachiTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20388B2C9135C3E9E4BF7696 /* Pods-HitachiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitachiTest.release.xcconfig"; path = "Target Support Files/Pods-HitachiTest/Pods-HitachiTest.release.xcconfig"; sourceTree = "<group>"; };
+		895BC8CD2084D1CC9D6A7D65 /* Pods-HitachiTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitachiTestTests.debug.xcconfig"; path = "Target Support Files/Pods-HitachiTestTests/Pods-HitachiTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98439A3D5BD4EC6F6C14101E /* Pods_HitachiTest_HitachiTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitachiTest_HitachiTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B091C5ECE4C666A37F39E165 /* Pods-HitachiTest-HitachiTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitachiTest-HitachiTestUITests.release.xcconfig"; path = "Target Support Files/Pods-HitachiTest-HitachiTestUITests/Pods-HitachiTest-HitachiTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C060212DCA5FCAC92A6DEE87 /* Pods-HitachiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitachiTest.debug.xcconfig"; path = "Target Support Files/Pods-HitachiTest/Pods-HitachiTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C09AA7F76607E606F35FD3DD /* Pods_HitachiTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitachiTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DEA3D45455319907A4607D /* Pods-HitachiTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitachiTestTests.release.xcconfig"; path = "Target Support Files/Pods-HitachiTestTests/Pods-HitachiTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		CF752B4929274D76000E0C52 /* HitachiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitachiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF752B4C29274D76000E0C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF752B4E29274D76000E0C52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +62,8 @@
 		CF752B6F29274D78000E0C52 /* HitachiTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitachiTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF752B7F29274E1C000E0C52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CF752B8129274E36000E0C52 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F13868143E4A8180CE09C01C /* Pods-HitachiTest-HitachiTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitachiTest-HitachiTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-HitachiTest-HitachiTestUITests/Pods-HitachiTest-HitachiTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F92439EBF40641B5E92A619E /* Pods_HitachiTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitachiTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CFA29A2693787D5C87B2F21 /* Pods_HitachiTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4ADE0123521816C5FAB6D9E /* Pods_HitachiTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +87,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABA7C33DEA4856A882E1965 /* Pods_HitachiTest_HitachiTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33E99146C70CB6F189AA5EE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C09AA7F76607E606F35FD3DD /* Pods_HitachiTest.framework */,
+				98439A3D5BD4EC6F6C14101E /* Pods_HitachiTest_HitachiTestUITests.framework */,
+				F92439EBF40641B5E92A619E /* Pods_HitachiTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8668C8A03BB660065B943F57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C060212DCA5FCAC92A6DEE87 /* Pods-HitachiTest.debug.xcconfig */,
+				20388B2C9135C3E9E4BF7696 /* Pods-HitachiTest.release.xcconfig */,
+				F13868143E4A8180CE09C01C /* Pods-HitachiTest-HitachiTestUITests.debug.xcconfig */,
+				B091C5ECE4C666A37F39E165 /* Pods-HitachiTest-HitachiTestUITests.release.xcconfig */,
+				895BC8CD2084D1CC9D6A7D65 /* Pods-HitachiTestTests.debug.xcconfig */,
+				C9DEA3D45455319907A4607D /* Pods-HitachiTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CF752B4029274D76000E0C52 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +125,8 @@
 				CF752B6229274D78000E0C52 /* HitachiTestTests */,
 				CF752B6C29274D78000E0C52 /* HitachiTestUITests */,
 				CF752B4A29274D76000E0C52 /* Products */,
+				8668C8A03BB660065B943F57 /* Pods */,
+				33E99146C70CB6F189AA5EE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF752B7329274D78000E0C52 /* Build configuration list for PBXNativeTarget "HitachiTest" */;
 			buildPhases = (
+				896C75162993A3F53FF5FAC0 /* [CP] Check Pods Manifest.lock */,
 				CF752B4529274D76000E0C52 /* Sources */,
 				CF752B4629274D76000E0C52 /* Frameworks */,
 				CF752B4729274D76000E0C52 /* Resources */,
+				5B844292F0FE80CAE57419D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF752B7629274D78000E0C52 /* Build configuration list for PBXNativeTarget "HitachiTestTests" */;
 			buildPhases = (
+				28B3B2A9F3BEB5F48A5E5D21 /* [CP] Check Pods Manifest.lock */,
 				CF752B5B29274D78000E0C52 /* Sources */,
 				CF752B5C29274D78000E0C52 /* Frameworks */,
 				CF752B5D29274D78000E0C52 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF752B7929274D78000E0C52 /* Build configuration list for PBXNativeTarget "HitachiTestUITests" */;
 			buildPhases = (
+				CBAE77A5699B267E9542604A /* [CP] Check Pods Manifest.lock */,
 				CF752B6529274D78000E0C52 /* Sources */,
 				CF752B6629274D78000E0C52 /* Frameworks */,
 				CF752B6729274D78000E0C52 /* Resources */,
+				65A07C92D9AF2A6F1002FA5C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,7 +257,7 @@
 				};
 			};
 			buildConfigurationList = CF752B4429274D76000E0C52 /* Build configuration list for PBXProject "HitachiTest" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -258,6 +304,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28B3B2A9F3BEB5F48A5E5D21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitachiTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B844292F0FE80CAE57419D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitachiTest/Pods-HitachiTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitachiTest/Pods-HitachiTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HitachiTest/Pods-HitachiTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A07C92D9AF2A6F1002FA5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitachiTest-HitachiTestUITests/Pods-HitachiTest-HitachiTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitachiTest-HitachiTestUITests/Pods-HitachiTest-HitachiTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HitachiTest-HitachiTestUITests/Pods-HitachiTest-HitachiTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		896C75162993A3F53FF5FAC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitachiTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAE77A5699B267E9542604A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitachiTest-HitachiTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF752B4529274D76000E0C52 /* Sources */ = {
@@ -449,6 +598,7 @@
 		};
 		CF752B7429274D78000E0C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C060212DCA5FCAC92A6DEE87 /* Pods-HitachiTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -482,6 +632,7 @@
 		};
 		CF752B7529274D78000E0C52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20388B2C9135C3E9E4BF7696 /* Pods-HitachiTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -515,6 +666,7 @@
 		};
 		CF752B7729274D78000E0C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895BC8CD2084D1CC9D6A7D65 /* Pods-HitachiTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +687,7 @@
 		};
 		CF752B7829274D78000E0C52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DEA3D45455319907A4607D /* Pods-HitachiTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -555,6 +708,7 @@
 		};
 		CF752B7A29274D78000E0C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13868143E4A8180CE09C01C /* Pods-HitachiTest-HitachiTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -573,6 +727,7 @@
 		};
 		CF752B7B29274D78000E0C52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B091C5ECE4C666A37F39E165 /* Pods-HitachiTest-HitachiTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
