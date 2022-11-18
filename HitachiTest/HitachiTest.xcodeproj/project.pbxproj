@@ -19,6 +19,23 @@
 		CF752B6E29274D78000E0C52 /* HitachiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B6D29274D78000E0C52 /* HitachiTestUITests.swift */; };
 		CF752B7029274D78000E0C52 /* HitachiTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B6F29274D78000E0C52 /* HitachiTestUITestsLaunchTests.swift */; };
 		CF752B7E29274E1C000E0C52 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF752B8029274E1C000E0C52 /* Localizable.strings */; };
+		CF752B84292755BA000E0C52 /* CommonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B83292755BA000E0C52 /* CommonTextField.swift */; };
+		CF752B86292755C8000E0C52 /* CommonTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF752B85292755C8000E0C52 /* CommonTextField.xib */; };
+		CF752B8929275782000E0C52 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B8829275782000E0C52 /* BaseViewController.swift */; };
+		CF752B8C29275899000E0C52 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B8B29275899000E0C52 /* LanguageManager.swift */; };
+		CF752B9029275B22000E0C52 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B8E29275B22000E0C52 /* MainVC.swift */; };
+		CF752B9129275B22000E0C52 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF752B8F29275B22000E0C52 /* MainVC.xib */; };
+		CF752B9329276075000E0C52 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B9229276075000E0C52 /* UserStorage.swift */; };
+		CF752B96292765E6000E0C52 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B95292765E6000E0C52 /* MainViewModel.swift */; };
+		CF752B9829276670000E0C52 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B9729276670000E0C52 /* BaseViewModel.swift */; };
+		CF752B9B29277B8E000E0C52 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B9A29277B8E000E0C52 /* ApiService.swift */; };
+		CF752B9D29277C67000E0C52 /* APIRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B9C29277C67000E0C52 /* APIRequestModel.swift */; };
+		CF752B9F29277D48000E0C52 /* ApiLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752B9E29277D48000E0C52 /* ApiLoading.swift */; };
+		CF752BA129277D71000E0C52 /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752BA029277D71000E0C52 /* APIServiceError.swift */; };
+		CF752BA429278E33000E0C52 /* WeatherDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752BA329278E33000E0C52 /* WeatherDetailRequest.swift */; };
+		CF752BA629278F38000E0C52 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752BA529278F38000E0C52 /* BaseResponse.swift */; };
+		CF752BA92927B737000E0C52 /* WeatherDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF752BA72927B737000E0C52 /* WeatherDetailVC.swift */; };
+		CF752BAA2927B737000E0C52 /* WeatherDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF752BA82927B737000E0C52 /* WeatherDetailVC.xib */; };
 		D4ADE0123521816C5FAB6D9E /* Pods_HitachiTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92439EBF40641B5E92A619E /* Pods_HitachiTestTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +79,23 @@
 		CF752B6F29274D78000E0C52 /* HitachiTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitachiTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF752B7F29274E1C000E0C52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CF752B8129274E36000E0C52 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CF752B83292755BA000E0C52 /* CommonTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTextField.swift; sourceTree = "<group>"; };
+		CF752B85292755C8000E0C52 /* CommonTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonTextField.xib; sourceTree = "<group>"; };
+		CF752B8829275782000E0C52 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CF752B8B29275899000E0C52 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		CF752B8E29275B22000E0C52 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		CF752B8F29275B22000E0C52 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		CF752B9229276075000E0C52 /* UserStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+		CF752B95292765E6000E0C52 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CF752B9729276670000E0C52 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		CF752B9A29277B8E000E0C52 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		CF752B9C29277C67000E0C52 /* APIRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestModel.swift; sourceTree = "<group>"; };
+		CF752B9E29277D48000E0C52 /* ApiLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiLoading.swift; sourceTree = "<group>"; };
+		CF752BA029277D71000E0C52 /* APIServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
+		CF752BA329278E33000E0C52 /* WeatherDetailRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailRequest.swift; sourceTree = "<group>"; };
+		CF752BA529278F38000E0C52 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		CF752BA72927B737000E0C52 /* WeatherDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailVC.swift; sourceTree = "<group>"; };
+		CF752BA82927B737000E0C52 /* WeatherDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherDetailVC.xib; sourceTree = "<group>"; };
 		F13868143E4A8180CE09C01C /* Pods-HitachiTest-HitachiTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitachiTest-HitachiTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-HitachiTest-HitachiTestUITests/Pods-HitachiTest-HitachiTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F92439EBF40641B5E92A619E /* Pods_HitachiTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitachiTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,7 +148,6 @@
 				895BC8CD2084D1CC9D6A7D65 /* Pods-HitachiTestTests.debug.xcconfig */,
 				C9DEA3D45455319907A4607D /* Pods-HitachiTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,6 +176,11 @@
 		CF752B4B29274D76000E0C52 /* HitachiTest */ = {
 			isa = PBXGroup;
 			children = (
+				CF752B99292766E8000E0C52 /* APIService */,
+				CF752B8D29275AF5000E0C52 /* Features */,
+				CF752B8A2927588D000E0C52 /* Helper */,
+				CF752B8729275776000E0C52 /* Base */,
+				CF752B822927556D000E0C52 /* Common */,
 				CF752B4C29274D76000E0C52 /* AppDelegate.swift */,
 				CF752B4E29274D76000E0C52 /* SceneDelegate.swift */,
 				CF752B5029274D76000E0C52 /* ViewController.swift */,
@@ -170,6 +208,74 @@
 				CF752B6F29274D78000E0C52 /* HitachiTestUITestsLaunchTests.swift */,
 			);
 			path = HitachiTestUITests;
+			sourceTree = "<group>";
+		};
+		CF752B822927556D000E0C52 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CF752B83292755BA000E0C52 /* CommonTextField.swift */,
+				CF752B85292755C8000E0C52 /* CommonTextField.xib */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CF752B8729275776000E0C52 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CF752B8829275782000E0C52 /* BaseViewController.swift */,
+				CF752B9729276670000E0C52 /* BaseViewModel.swift */,
+				CF752BA529278F38000E0C52 /* BaseResponse.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CF752B8A2927588D000E0C52 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CF752B9229276075000E0C52 /* UserStorage.swift */,
+				CF752B8B29275899000E0C52 /* LanguageManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CF752B8D29275AF5000E0C52 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CF752B94292765D7000E0C52 /* ViewModel */,
+				CF752B8E29275B22000E0C52 /* MainVC.swift */,
+				CF752B8F29275B22000E0C52 /* MainVC.xib */,
+				CF752BA72927B737000E0C52 /* WeatherDetailVC.swift */,
+				CF752BA82927B737000E0C52 /* WeatherDetailVC.xib */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CF752B94292765D7000E0C52 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF752B95292765E6000E0C52 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF752B99292766E8000E0C52 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				CF752BA229278E25000E0C52 /* Api */,
+				CF752B9A29277B8E000E0C52 /* ApiService.swift */,
+				CF752B9C29277C67000E0C52 /* APIRequestModel.swift */,
+				CF752B9E29277D48000E0C52 /* ApiLoading.swift */,
+				CF752BA029277D71000E0C52 /* APIServiceError.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		CF752BA229278E25000E0C52 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				CF752BA329278E33000E0C52 /* WeatherDetailRequest.swift */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,9 +388,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF752BAA2927B737000E0C52 /* WeatherDetailVC.xib in Resources */,
 				CF752B5929274D78000E0C52 /* LaunchScreen.storyboard in Resources */,
 				CF752B7E29274E1C000E0C52 /* Localizable.strings in Resources */,
 				CF752B5629274D78000E0C52 /* Assets.xcassets in Resources */,
+				CF752B9129275B22000E0C52 /* MainVC.xib in Resources */,
+				CF752B86292755C8000E0C52 /* CommonTextField.xib in Resources */,
 				CF752B5429274D76000E0C52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,9 +522,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF752B9D29277C67000E0C52 /* APIRequestModel.swift in Sources */,
+				CF752B9329276075000E0C52 /* UserStorage.swift in Sources */,
+				CF752BA429278E33000E0C52 /* WeatherDetailRequest.swift in Sources */,
+				CF752B9829276670000E0C52 /* BaseViewModel.swift in Sources */,
+				CF752B8929275782000E0C52 /* BaseViewController.swift in Sources */,
+				CF752BA92927B737000E0C52 /* WeatherDetailVC.swift in Sources */,
 				CF752B5129274D76000E0C52 /* ViewController.swift in Sources */,
 				CF752B4D29274D76000E0C52 /* AppDelegate.swift in Sources */,
+				CF752BA629278F38000E0C52 /* BaseResponse.swift in Sources */,
+				CF752B9F29277D48000E0C52 /* ApiLoading.swift in Sources */,
+				CF752B8C29275899000E0C52 /* LanguageManager.swift in Sources */,
+				CF752B9B29277B8E000E0C52 /* ApiService.swift in Sources */,
+				CF752BA129277D71000E0C52 /* APIServiceError.swift in Sources */,
+				CF752B84292755BA000E0C52 /* CommonTextField.swift in Sources */,
 				CF752B4F29274D76000E0C52 /* SceneDelegate.swift in Sources */,
+				CF752B9029275B22000E0C52 /* MainVC.swift in Sources */,
+				CF752B96292765E6000E0C52 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,8 +734,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -645,8 +768,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
